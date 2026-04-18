@@ -1,7 +1,76 @@
-# Project-Performance-Workforce-Analytics
+# 🚀 Smart Employee Project Analytics System
+
+## 📌 Overview
+
+This project is an end-to-end data analytics solution built using **Python, Pandas, and NumPy** to analyze project and employee data. It focuses on data cleaning, transformation, integration, and applying business logic to generate actionable insights. The project simulates real-world scenarios where multiple datasets are combined to evaluate employee performance and project outcomes.
+
 ---
-## 📌 Project Description
 
-This project focuses on building an end-to-end data analytics solution to process, clean, and analyze project and employee data using Python. The workflow involves creating and integrating multiple datasets, including project details, employee information, and seniority levels, to generate meaningful business insights. Key data preprocessing steps such as handling missing values using a running average approach, data transformation, and merging datasets were performed to ensure data consistency and reliability.
+## 🎯 Objectives
 
-The project further applies business logic to evaluate project performance and employee contribution, including calculating bonuses for successful projects, adjusting designation levels based on project outcomes and age criteria, and filtering relevant insights. Advanced data manipulation techniques using Pandas and NumPy were used to derive metrics such as total project cost per employee and city-based analysis. This project demonstrates strong capabilities in data cleaning, feature engineering, and analytical thinking, making it a comprehensive example of real-world data analysis and business rule implementation.
+* Clean and preprocess raw data
+* Handle missing values using a running average technique
+* Merge multiple datasets for unified analysis
+* Apply business rules to evaluate performance
+* Generate insights such as bonuses, designation updates, and cost analysis
+
+---
+
+## 🛠️ Tech Stack
+
+* 🐍 Python
+* 📊 Pandas
+* 🔢 NumPy
+
+---
+
+## 📂 Datasets Used
+
+* **Project Data** – Contains project details, cost, and status
+* **Employee Data** – Includes employee demographics
+* **Seniority Data** – Defines employee designation levels
+
+---
+
+## ⚙️ Key Features
+
+### 🔹 Data Cleaning & Preprocessing
+
+* Handled missing values using **running average logic**
+* Split and transformed columns for better usability
+
+### 🔹 Data Integration
+
+* Merged multiple datasets using common keys (`ID`)
+* Created a unified dataset for analysis
+
+### 🔹 Business Logic Implementation
+
+* 💰 Calculated **5% bonus** for completed projects
+* 📉 Adjusted designation levels for failed projects
+* 📈 Promoted employees based on age criteria
+* 🧾 Added titles (Mr./Mrs.) based on gender
+
+### 🔹 Data Analysis
+
+* Calculated **total project cost per employee**
+* Filtered data based on conditions (e.g., city-based filtering)
+
+---
+
+## 📊 Sample Insights
+
+* Improved understanding of employee contribution across projects
+* Identified cost distribution and high-value contributors
+* Enabled performance-based evaluation using project outcomes
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Install required libraries:
+   ```
+   pip install pandas numpy
+   ```
+3. Run the Python script or Jupyter Notebook
